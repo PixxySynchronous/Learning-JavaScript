@@ -78,6 +78,6 @@ const sum = array.reduce((result,current)=>{
 });
 console.log(sum);
 const multi = array.reduce((result,current)=>{
-    return result;
+    return result*current;
 });
-console.log(multi); 
+console.log(multi);
